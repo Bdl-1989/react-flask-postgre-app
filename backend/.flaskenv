@@ -1,0 +1,8 @@
+FLASK_ENV=development
+FLASK_APP=app.py
+FLASK_DEBUG=True
+FLASK_SECRET_KEY=your_secret_key
+FLASK_SQLALCHEMY_DATABASE_URI=postgresql://postgres:123456@localhost:5432/users
+FLASK_SQLALCHEMY_ECHO=True
+
+FLASK_JWT_SECRET_KEY=ab6f820a596dcf5f2e8080b0
